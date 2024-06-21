@@ -44,6 +44,21 @@
 }
 
 /* Area del NAV */
+.encabezado-index img {
+  width: 1000px;
+  height: 100vh;
+}
+
+.card-destiny img {
+  width: 400px;
+  height: 250px;
+}
+
+.section-experiencia img {
+  height: 450px;
+  width: 800px;
+}
+
 main {
   height: 100%;
   width: 87%;
@@ -53,6 +68,43 @@ main {
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(250, 250, 250, 0.842);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(12, auto);
+  gap: 15px;
+}
+
+.encabezado-index {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+.seccion-destinos {
+  grid-column: 1/-1;
+  grid-row: 3/5;
+}
+
+.novedades-viajes {
+  grid-column: 1/-1;
+  grid-row: 6/7;
+}
+
+.Experiencias {
+  grid-column: 1/-1;
+  grid-row: 8/10;
+}
+
+.Noticias-viajes {
+  grid-column: 12;
+  grid-row: 3/-1;
+}
+
+.preguntas-frecuentes {
+  grid-column: 1/-1;
+  grid-row: 12;
 }
 
 /* Area del FOOTER */
