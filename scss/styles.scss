@@ -272,6 +272,48 @@ body{
 
 }
 
+
+.Noticias-viajes{
+    .container-noticias{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+        .card-noticias{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            width: 200px;
+            }
+            img{
+                height: 140px;
+                width: 240px;
+            }
+            h4{
+                font-size: 18px;
+                text-align: center;
+            }
+            .button-noticias{
+                width: 200px;
+                border-radius: 1px;
+                border-style: none;
+                background-color: #ececec;
+                a{
+                    text-decoration: none;
+                    color: $font-color-blue;
+                }
+            }
+        }
+    }
+
+
+
+.preguntas-frecuentes{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 /* Area del FOOTER */
 .footer{
     background-color: #bbc6cabe;
@@ -316,3 +358,6 @@ body{
 
 
 /* Area del FOOTER */
+
+
+@import "page-destinos";

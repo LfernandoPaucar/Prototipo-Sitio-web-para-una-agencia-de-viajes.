@@ -256,6 +256,43 @@ body {
   line-height: 30px;
 }
 
+.Noticias-viajes .container-noticias {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.Noticias-viajes .container-noticias .card-noticias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 200px;
+}
+.Noticias-viajes .container-noticias img {
+  height: 140px;
+  width: 240px;
+}
+.Noticias-viajes .container-noticias h4 {
+  font-size: 18px;
+  text-align: center;
+}
+.Noticias-viajes .container-noticias .button-noticias {
+  width: 200px;
+  border-radius: 1px;
+  border-style: none;
+  background-color: #ececec;
+}
+.Noticias-viajes .container-noticias .button-noticias a {
+  text-decoration: none;
+  color: #149fd6;
+}
+
+.preguntas-frecuentes {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 /* Area del FOOTER */
 .footer {
   background-color: rgba(187, 198, 202, 0.7450980392);
@@ -298,5 +335,22 @@ body {
 }
 
 /* Area del FOOTER */
+.contenedor-destinos {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-destinos .banner-destinos {
+  box-sizing: border-box;
+}
+.contenedor-destinos .card-destinos {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+}
+.contenedor-destinos .card-destinos .hijo-card-destino img {
+  height: 150px;
+  width: 250px;
+}
 
 /*# sourceMappingURL=styles.css.map */
